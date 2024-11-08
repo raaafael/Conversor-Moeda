@@ -9,7 +9,7 @@ function converter(){
     let dolar = real/5.64
     let euro = real/6.25
     let libra = real/7.41
-    let peso = real/0.0059
+    let kwanza = real/0.0062
 
     console.log(valorSelecionado)
 
@@ -22,8 +22,8 @@ function converter(){
     else if(valorSelecionado == "Libra"){
         valorfinal.innerHTML = `R$ ${real} reais equivalem a ${libra.toFixed(2)} Libra`
     }
-    else if(valorSelecionado == "Peso"){
-        valorfinal.innerHTML = `R$ ${real} reais equivalem a ${peso.toFixed(2)} Peso`
+    else if(valorSelecionado == "Kwanza"){
+        valorfinal.innerHTML = `R$ ${real} reais equivalem a ${kwanza.toFixed(2)} Kwanza`
     }
 
 }
