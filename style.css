@@ -8,46 +8,42 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    margin-top: 200px;
+    padding: 40px 4%;
 }
 
-.Zapzap{
+.container{
     background-color: #ffffff;
     width: 400px;
     border: 1px solid black;
     padding: 20px;
+    width: auto;
+    height: auto;
     border-radius: 20px;
     text-align: center;
 }
 
-#cm{
+button {
+    padding: 1000px;
+    margin: 30px;
+}
+#titulo {
     font-size: 45px;
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
-#vm{
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-}
-
-#mm{
-    margin-top: 20px;  
-}
-
-#conv{
-    margin-top: 20px;
-    margin-bottom: 20px; 
-}
-
-#select{
+p {
+    font-size: 30px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
-#valorfinal{
-    font-style: italic;
-    margin-top: 20px;
-    margin-bottom: 20px;
+option {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
